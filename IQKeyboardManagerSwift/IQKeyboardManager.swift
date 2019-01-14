@@ -198,7 +198,10 @@ public class IQKeyboardManager: NSObject, UIGestureRecognizerDelegate {
             showLog("enableAutoToolbar: \(enableToolbar)")
         }
     }
-    
+    public func vivekTest()
+    {
+      print("Hello it worked")
+  }
     private func privateIsEnableAutoToolbar() -> Bool {
         
         var enableToolbar = enableAutoToolbar
